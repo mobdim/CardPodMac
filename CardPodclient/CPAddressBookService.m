@@ -43,7 +43,7 @@ static CPAddressBookService *sharedService = nil;
 
         NSString *identifier = [CPAddressBookService podIdentifierFromPerson:person];
 
-        if (FNIsEmptyString(identifier)) {
+        if (PXIsEmptyString(identifier)) {
             continue;
         }
 
