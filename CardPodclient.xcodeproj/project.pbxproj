@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F286D3218EC429700061083 /* CPCardRemoteService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F286D3118EC429700061083 /* CPCardRemoteService.m */; };
+		6F286D3618EC477800061083 /* CPPodIdentifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F286D3518EC477800061083 /* CPPodIdentifierTests.m */; };
+		6F8A17F0184630C200C314E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8A17EF184630C200C314E6 /* Cocoa.framework */; };
+		6F8A17FA184630C200C314E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A17F8184630C200C314E6 /* InfoPlist.strings */; };
+		6F8A17FC184630C200C314E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A17FB184630C200C314E6 /* main.m */; };
+		6F8A1800184630C200C314E6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A17FE184630C200C314E6 /* Credits.rtf */; };
+		6F8A1803184630C200C314E6 /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A1802184630C200C314E6 /* CPAppDelegate.m */; };
+		6F8A1806184630C200C314E6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A1804184630C200C314E6 /* MainMenu.xib */; };
+		6F8A1809184630C200C314E6 /* CardPodclient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A1807184630C200C314E6 /* CardPodclient.xcdatamodeld */; };
+		6F8A180B184630C200C314E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A180A184630C200C314E6 /* Images.xcassets */; };
+		6F8A1812184630C300C314E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8A1811184630C300C314E6 /* XCTest.framework */; };
+		6F8A1813184630C300C314E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8A17EF184630C200C314E6 /* Cocoa.framework */; };
+		6F8A181B184630C300C314E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F8A1819184630C300C314E6 /* InfoPlist.strings */; };
+		6F8A181D184630C300C314E6 /* CardPodclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A181C184630C300C314E6 /* CardPodclientTests.m */; };
+		6F8A18281846310A00C314E6 /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8A18271846310A00C314E6 /* CPTableViewController.m */; };
+		6F8A182A1846317800C314E6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8A18291846317800C314E6 /* AddressBook.framework */; };
+		6FA0703618E4746000F4268C /* CPUserPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0703418E4746000F4268C /* CPUserPreferencesWindowController.m */; };
+		6FA0705118E492A900F4268C /* PXLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0704D18E4927C00F4268C /* PXLib.framework */; };
+		6FA0705D18E495D300F4268C /* CPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0705918E495D300F4268C /* CPPerson.m */; };
+		6FA0705E18E495D300F4268C /* _CPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0705C18E495D300F4268C /* _CPPerson.m */; };
+		6FA0705F18E4965300F4268C /* PXLib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA0704D18E4927C00F4268C /* PXLib.framework */; };
+		6FEC672618F69A3A00DBE384 /* CPMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEC672518F69A3A00DBE384 /* CPMainWindowController.m */; };
+		9F44811C9ABABFF950F0D41B /* CPPodIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4DFC20C2C0697D1FA1ED15 /* CPPodIdentifier.m */; };
+		9F4785FBE825E9017384AC0B /* CPAddressBookService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D1039FC9A46BBA27DC7B1 /* CPAddressBookService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F8A1814184630C300C314E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F8A17E4184630C200C314E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F8A17EB184630C200C314E6;
+			remoteInfo = CardPodclient;
+		};
+		6FA0704C18E4927C00F4268C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA0704718E4927C00F4268C /* PXLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F17933917268E93007B4E9D;
+			remoteInfo = PXLib;
+		};
+		6FA0704E18E4927C00F4268C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA0704718E4927C00F4268C /* PXLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F17935117268E94007B4E9D;
+			remoteInfo = PXLibTests;
+		};
+		6FA0705218E492B100F4268C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FA0704718E4927C00F4268C /* PXLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F17933817268E93007B4E9D;
+			remoteInfo = PXLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6FA0705018E492A200F4268C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6FA0705F18E4965300F4268C /* PXLib.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F286D3018EC429700061083 /* CPCardRemoteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCardRemoteService.h; sourceTree = "<group>"; };
+		6F286D3118EC429700061083 /* CPCardRemoteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCardRemoteService.m; sourceTree = "<group>"; };
+		6F286D3518EC477800061083 /* CPPodIdentifierTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPodIdentifierTests.m; sourceTree = "<group>"; };
+		6F8A17EC184630C200C314E6 /* CardPodclient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardPodclient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8A17EF184630C200C314E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F8A17F2184630C200C314E6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F8A17F3184630C200C314E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F8A17F4184630C200C314E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F8A17F7184630C200C314E6 /* CardPodclient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardPodclient-Info.plist"; sourceTree = "<group>"; };
+		6F8A17F9184630C200C314E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F8A17FB184630C200C314E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F8A17FD184630C200C314E6 /* CardPodclient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardPodclient-Prefix.pch"; sourceTree = "<group>"; };
+		6F8A17FF184630C200C314E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6F8A1801184630C200C314E6 /* CPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		6F8A1802184630C200C314E6 /* CPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		6F8A1805184630C200C314E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6F8A1808184630C200C314E6 /* CardPodclient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CardPodclient.xcdatamodel; sourceTree = "<group>"; };
+		6F8A180A184630C200C314E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6F8A1810184630C300C314E6 /* CardPodclientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardPodclientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F8A1811184630C300C314E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F8A1818184630C300C314E6 /* CardPodclientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardPodclientTests-Info.plist"; sourceTree = "<group>"; };
+		6F8A181A184630C300C314E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F8A181C184630C300C314E6 /* CardPodclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardPodclientTests.m; sourceTree = "<group>"; };
+		6F8A18261846310A00C314E6 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
+		6F8A18271846310A00C314E6 /* CPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewController.m; sourceTree = "<group>"; };
+		6F8A18291846317800C314E6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6FA0703318E4746000F4268C /* CPUserPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUserPreferencesWindowController.h; sourceTree = "<group>"; };
+		6FA0703418E4746000F4268C /* CPUserPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPUserPreferencesWindowController.m; sourceTree = "<group>"; };
+		6FA0704718E4927C00F4268C /* PXLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXLib.xcodeproj; path = Frameworks/pxlib/PXLib.xcodeproj; sourceTree = "<group>"; };
+		6FA0705818E495D300F4268C /* CPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPerson.h; sourceTree = "<group>"; };
+		6FA0705918E495D300F4268C /* CPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPerson.m; sourceTree = "<group>"; };
+		6FA0705B18E495D300F4268C /* _CPPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _CPPerson.h; sourceTree = "<group>"; };
+		6FA0705C18E495D300F4268C /* _CPPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _CPPerson.m; sourceTree = "<group>"; };
+		6FEC672418F69A3A00DBE384 /* CPMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPMainWindowController.h; sourceTree = "<group>"; };
+		6FEC672518F69A3A00DBE384 /* CPMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPMainWindowController.m; sourceTree = "<group>"; };
+		6FEC672818F6AA4400DBE384 /* CardPodclient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CardPodclient.entitlements; sourceTree = "<group>"; };
+		9F4811697B955141DC128FC6 /* CPPodIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPodIdentifier.h; sourceTree = "<group>"; };
+		9F4D1039FC9A46BBA27DC7B1 /* CPAddressBookService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAddressBookService.m; sourceTree = "<group>"; };
+		9F4DFC20C2C0697D1FA1ED15 /* CPPodIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPodIdentifier.m; sourceTree = "<group>"; };
+		9F4F21E4EBBBB7E4C450D44F /* CPAddressBookService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAddressBookService.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F8A17E9184630C200C314E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A182A1846317800C314E6 /* AddressBook.framework in Frameworks */,
+				6F8A17F0184630C200C314E6 /* Cocoa.framework in Frameworks */,
+				6FA0705118E492A900F4268C /* PXLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8A180D184630C300C314E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A1813184630C300C314E6 /* Cocoa.framework in Frameworks */,
+				6F8A1812184630C300C314E6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F286D2F18EC422500061083 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6F286D3018EC429700061083 /* CPCardRemoteService.h */,
+				6F286D3118EC429700061083 /* CPCardRemoteService.m */,
+				9F4F21E4EBBBB7E4C450D44F /* CPAddressBookService.h */,
+				9F4D1039FC9A46BBA27DC7B1 /* CPAddressBookService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		6F8A17E3184630C200C314E6 = {
+			isa = PBXGroup;
+			children = (
+				6F8A17F5184630C200C314E6 /* CardPodclient */,
+				6F8A1816184630C300C314E6 /* CardPodclientTests */,
+				6F8A17EE184630C200C314E6 /* Frameworks */,
+				6F8A17ED184630C200C314E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F8A17ED184630C200C314E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A17EC184630C200C314E6 /* CardPodclient.app */,
+				6F8A1810184630C300C314E6 /* CardPodclientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F8A17EE184630C200C314E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0704718E4927C00F4268C /* PXLib.xcodeproj */,
+				6F8A18291846317800C314E6 /* AddressBook.framework */,
+				6F8A17EF184630C200C314E6 /* Cocoa.framework */,
+				6F8A1811184630C300C314E6 /* XCTest.framework */,
+				6F8A17F1184630C200C314E6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8A17F1184630C200C314E6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A17F2184630C200C314E6 /* AppKit.framework */,
+				6F8A17F3184630C200C314E6 /* CoreData.framework */,
+				6F8A17F4184630C200C314E6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F8A17F5184630C200C314E6 /* CardPodclient */ = {
+			isa = PBXGroup;
+			children = (
+				6FEC672818F6AA4400DBE384 /* CardPodclient.entitlements */,
+				6F286D2F18EC422500061083 /* Services */,
+				6FA0703018E4742400F4268C /* UserPreferences */,
+				6F8A1801184630C200C314E6 /* CPAppDelegate.h */,
+				6F8A1802184630C200C314E6 /* CPAppDelegate.m */,
+				6F8A1804184630C200C314E6 /* MainMenu.xib */,
+				6FEC672018F6996300DBE384 /* MainMenu */,
+				6F8A180A184630C200C314E6 /* Images.xcassets */,
+				6F8A17F6184630C200C314E6 /* Supporting Files */,
+				6F8A18261846310A00C314E6 /* CPTableViewController.h */,
+				6F8A18271846310A00C314E6 /* CPTableViewController.m */,
+				6FA0705618E495D300F4268C /* CoreData */,
+				9F4DFC20C2C0697D1FA1ED15 /* CPPodIdentifier.m */,
+				9F4811697B955141DC128FC6 /* CPPodIdentifier.h */,
+			);
+			path = CardPodclient;
+			sourceTree = "<group>";
+		};
+		6F8A17F6184630C200C314E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A17F7184630C200C314E6 /* CardPodclient-Info.plist */,
+				6F8A17F8184630C200C314E6 /* InfoPlist.strings */,
+				6F8A17FB184630C200C314E6 /* main.m */,
+				6F8A17FD184630C200C314E6 /* CardPodclient-Prefix.pch */,
+				6F8A17FE184630C200C314E6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F8A1816184630C300C314E6 /* CardPodclientTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A181C184630C300C314E6 /* CardPodclientTests.m */,
+				6F286D3518EC477800061083 /* CPPodIdentifierTests.m */,
+				6F8A1817184630C300C314E6 /* Supporting Files */,
+			);
+			path = CardPodclientTests;
+			sourceTree = "<group>";
+		};
+		6F8A1817184630C300C314E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F8A1818184630C300C314E6 /* CardPodclientTests-Info.plist */,
+				6F8A1819184630C300C314E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FA0703018E4742400F4268C /* UserPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0703318E4746000F4268C /* CPUserPreferencesWindowController.h */,
+				6FA0703418E4746000F4268C /* CPUserPreferencesWindowController.m */,
+			);
+			name = UserPreferences;
+			sourceTree = "<group>";
+		};
+		6FA0704818E4927C00F4268C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0704D18E4927C00F4268C /* PXLib.framework */,
+				6FA0704F18E4927C00F4268C /* PXLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FA0705618E495D300F4268C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0705A18E495D300F4268C /* Machine */,
+				6FA0705718E495D300F4268C /* Human */,
+				6F8A1807184630C200C314E6 /* CardPodclient.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		6FA0705718E495D300F4268C /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0705818E495D300F4268C /* CPPerson.h */,
+				6FA0705918E495D300F4268C /* CPPerson.m */,
+			);
+			path = Human;
+			sourceTree = "<group>";
+		};
+		6FA0705A18E495D300F4268C /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				6FA0705B18E495D300F4268C /* _CPPerson.h */,
+				6FA0705C18E495D300F4268C /* _CPPerson.m */,
+			);
+			path = Machine;
+			sourceTree = "<group>";
+		};
+		6FEC672018F6996300DBE384 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				6FEC672418F69A3A00DBE384 /* CPMainWindowController.h */,
+				6FEC672518F69A3A00DBE384 /* CPMainWindowController.m */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F8A17EB184630C200C314E6 /* CardPodclient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8A1820184630C300C314E6 /* Build configuration list for PBXNativeTarget "CardPodclient" */;
+			buildPhases = (
+				6FA0703918E48A3700F4268C /* Mogenerator */,
+				6F8A17E8184630C200C314E6 /* Sources */,
+				6F8A17E9184630C200C314E6 /* Frameworks */,
+				6F8A17EA184630C200C314E6 /* Resources */,
+				6FA0705018E492A200F4268C /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FA0705318E492B100F4268C /* PBXTargetDependency */,
+			);
+			name = CardPodclient;
+			productName = CardPodclient;
+			productReference = 6F8A17EC184630C200C314E6 /* CardPodclient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F8A180F184630C300C314E6 /* CardPodclientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F8A1823184630C300C314E6 /* Build configuration list for PBXNativeTarget "CardPodclientTests" */;
+			buildPhases = (
+				6F8A180C184630C300C314E6 /* Sources */,
+				6F8A180D184630C300C314E6 /* Frameworks */,
+				6F8A180E184630C300C314E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F8A1815184630C300C314E6 /* PBXTargetDependency */,
+			);
+			name = CardPodclientTests;
+			productName = CardPodclientTests;
+			productReference = 6F8A1810184630C300C314E6 /* CardPodclientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F8A17E4184630C200C314E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Patrick Dinger";
+				TargetAttributes = {
+					6F8A17EB184630C200C314E6 = {
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					6F8A180F184630C300C314E6 = {
+						TestTargetID = 6F8A17EB184630C200C314E6;
+					};
+				};
+			};
+			buildConfigurationList = 6F8A17E7184630C200C314E6 /* Build configuration list for PBXProject "CardPodclient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F8A17E3184630C200C314E6;
+			productRefGroup = 6F8A17ED184630C200C314E6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6FA0704818E4927C00F4268C /* Products */;
+					ProjectRef = 6FA0704718E4927C00F4268C /* PXLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6F8A17EB184630C200C314E6 /* CardPodclient */,
+				6F8A180F184630C300C314E6 /* CardPodclientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6FA0704D18E4927C00F4268C /* PXLib.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PXLib.framework;
+			remoteRef = 6FA0704C18E4927C00F4268C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6FA0704F18E4927C00F4268C /* PXLibTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PXLibTests.octest;
+			remoteRef = 6FA0704E18E4927C00F4268C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F8A17EA184630C200C314E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A17FA184630C200C314E6 /* InfoPlist.strings in Resources */,
+				6F8A180B184630C200C314E6 /* Images.xcassets in Resources */,
+				6F8A1800184630C200C314E6 /* Credits.rtf in Resources */,
+				6F8A1806184630C200C314E6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8A180E184630C300C314E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A181B184630C300C314E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FA0703918E48A3700F4268C /* Mogenerator */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Mogenerator;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd CardPodclient\n/usr/local/bin/mogenerator --template-var arc=true -m CardPodclient.xcdatamodeld -M CoreData/Machine/ -H CoreData/Human/";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F8A17E8184630C200C314E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A18281846310A00C314E6 /* CPTableViewController.m in Sources */,
+				6FA0705D18E495D300F4268C /* CPPerson.m in Sources */,
+				6FA0703618E4746000F4268C /* CPUserPreferencesWindowController.m in Sources */,
+				6FEC672618F69A3A00DBE384 /* CPMainWindowController.m in Sources */,
+				6F286D3218EC429700061083 /* CPCardRemoteService.m in Sources */,
+				6F8A1809184630C200C314E6 /* CardPodclient.xcdatamodeld in Sources */,
+				6F8A17FC184630C200C314E6 /* main.m in Sources */,
+				6F8A1803184630C200C314E6 /* CPAppDelegate.m in Sources */,
+				6FA0705E18E495D300F4268C /* _CPPerson.m in Sources */,
+				9F4785FBE825E9017384AC0B /* CPAddressBookService.m in Sources */,
+				9F44811C9ABABFF950F0D41B /* CPPodIdentifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F8A180C184630C300C314E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8A181D184630C300C314E6 /* CardPodclientTests.m in Sources */,
+				6F286D3618EC477800061083 /* CPPodIdentifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F8A1815184630C300C314E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F8A17EB184630C200C314E6 /* CardPodclient */;
+			targetProxy = 6F8A1814184630C300C314E6 /* PBXContainerItemProxy */;
+		};
+		6FA0705318E492B100F4268C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXLib;
+			targetProxy = 6FA0705218E492B100F4268C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F8A17F8184630C200C314E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8A17F9184630C200C314E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F8A17FE184630C200C314E6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8A17FF184630C200C314E6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6F8A1804184630C200C314E6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8A1805184630C200C314E6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6F8A1819184630C300C314E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F8A181A184630C300C314E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F8A181E184630C300C314E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F8A181F184630C300C314E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F8A1821184630C300C314E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardPodclient/CardPodclient-Prefix.pch";
+				INFOPLIST_FILE = "CardPodclient/CardPodclient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F8A1822184630C300C314E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardPodclient/CardPodclient-Prefix.pch";
+				INFOPLIST_FILE = "CardPodclient/CardPodclient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6F8A1824184630C300C314E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardPodclient.app/Contents/MacOS/CardPodclient";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardPodclient/CardPodclient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CardPodclientTests/CardPodclientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6F8A1825184630C300C314E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardPodclient.app/Contents/MacOS/CardPodclient";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardPodclient/CardPodclient-Prefix.pch";
+				INFOPLIST_FILE = "CardPodclientTests/CardPodclientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F8A17E7184630C200C314E6 /* Build configuration list for PBXProject "CardPodclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8A181E184630C300C314E6 /* Debug */,
+				6F8A181F184630C300C314E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8A1820184630C300C314E6 /* Build configuration list for PBXNativeTarget "CardPodclient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8A1821184630C300C314E6 /* Debug */,
+				6F8A1822184630C300C314E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F8A1823184630C300C314E6 /* Build configuration list for PBXNativeTarget "CardPodclientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F8A1824184630C300C314E6 /* Debug */,
+				6F8A1825184630C300C314E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F8A1807184630C200C314E6 /* CardPodclient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F8A1808184630C200C314E6 /* CardPodclient.xcdatamodel */,
+			);
+			currentVersion = 6F8A1808184630C200C314E6 /* CardPodclient.xcdatamodel */;
+			name = CardPodclient.xcdatamodeld;
+			path = ../CardPodclient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F8A17E4184630C200C314E6 /* Project object */;
+}
